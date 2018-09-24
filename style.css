@@ -1,0 +1,334 @@
+/*navbar lucie */
+
+.homeNav {
+    opacity: 0.8;
+}
+.homeList {
+    font-size: 25px;
+    font-weight: bold;
+}
+.homeEarth {
+    font-size: 25px;
+    color: rgb(53, 56, 58);
+}
+.homeEarth:hover {
+    color: rgb(53, 56, 58);
+}
+@media screen and (max-width: 990px) {
+    .homeList, .homeEarth {
+        font-size: 15px;
+    }
+    .logo1 {
+        width: 60px;
+        height: 79px;
+    }
+}
+/*navbar fin lucie */
+
+/* css partie lucie */
+
+/* SECTION CAROUSEL */
+
+ /* Make the image fully responsive */
+ .imgCarouselLucie {
+    width: 100%;
+    height: auto;
+    max-height: 850px;
+    margin-top: 115px;
+}
+@media screen and (max-width: 990px) {
+    .imgCarouselLucie {
+        margin-top: 95px;
+    }
+}
+/* FIN SECTION 1 */
+.homeBody {
+    font-family: 'Source Sans Pro Regular', Arial, serif;
+}
+/* SECTION 2 */
+.homeBloc {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.homeBlocimg {
+    height: 900px;
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+.homeCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px rgb(53, 56, 58);
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.homeBloc1 {
+    position: relative;
+    text-align: center;
+}
+
+.homeCentered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+}
+.homeWild {
+    color: white;
+}
+.homeIpsum {
+    font-size: 20px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 990px) {
+    div.homeBloc {
+      display: none;
+    }
+}
+@media screen and (min-width: 990px) {
+   div.homeBloc1 {
+        display: none;
+    }
+}
+  @media screen and (min-width: 990px) {
+    div.homeBlocipsum {
+         display: none;
+     }
+}
+
+/* fin partie lucie */
+
+
+
+
+
+
+
+ /* css partie jonathan */
+
+
+/*body*/
+
+.bodyjo{
+    margin: 115px 15% 0px 15%;
+    background-color: #f1f1f1;
+}
+
+.jradius{
+    border-radius: 15px;
+}
+
+
+
+@media screen and (max-width: 990px){
+    .bodyjo{
+        margin: 140px 0px 0px 0px; 
+    }
+
+    .jspace{
+        margin-bottom: 10%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    .jgrey{
+        background-color:#dddddd;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .jspace{
+        margin-bottom: 10%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+
+    .jgrey{
+        background-color:#dddddd;
+    }
+}
+
+
+/*footer*/
+
+.jorange{
+    background-color:#f9a02e;
+}
+
+.jul{
+	list-style: none;
+}
+
+.joa a{
+	color: white;
+}
+
+.joa a:visited{
+	color: grey;
+} 
+
+.joa a:hover{
+	color: black;
+}
+
+
+/* fin partie jonathan */
+
+
+/* début partie Quentin */
+.qcaption {
+    width:100%;
+    position: absolute;
+    color: #fff;
+}
+
+.qthumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin:0;
+    padding:0;
+    width:100%;
+    max-width:1600px;
+}
+.qtexte {
+    font-size: 1.3em;
+}
+.qtextmob  {
+    color:black;
+}
+@media screen and (max-width:990px){
+    .qabout {
+        display:none;
+    }
+    .qaboutmobile {
+        margin-top: 115px;
+    }
+}
+@media screen and (min-width:990px){
+    .qaboutmobile {
+        display:none;
+    }
+    .containerQuentin {
+        margin: 115px 20px 20px 20px;
+    }
+}
+/* fin partie Quentin */
+
+
+/* début partie Julien */
+.sectionGal{
+    margin-top: 115px;
+    padding-top: 20px;
+    background-color: #f1f1f1;
+}
+.textgalerie {
+    font-size: 25px;
+}
+.oKgalerie {
+    border-radius: 10px;
+    height: 90%;
+    width: 100%;
+}
+.margegalerie {
+    margin-top: 60px;
+}
+.oK1galerie {
+    margin-top: 140px;
+
+} 
+/* fin partie julien */ 
+
+
+
+/* ---------------------------------------------------------- */
+/* --- Caracteristiques Thomas --- */
+.caractBg {
+    background-color: #f1f1f1;
+}
+.caractSectionBody {
+    margin-top: 115px;
+}
+.caractTable thead {
+    background-color: #BFC4C9;
+    text-align: center;
+    font-size: 1.3em;
+}
+.caractTable {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.caractSymboles {
+    font-size: 1.5em;
+}
+.caractFonctionnalité {
+    font-size: 1.2em;
+}
+.caractWidthCol {
+    width: 35%;
+}
+@media screen and (max-width: 768px) {
+    .displaySmall {
+        font-size: 2.7rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+}
+/* --- Caracteristiques Thomas --- */
+/* ---------------------------------------------------------- */
+
+/* Debut partie JP */
+
+
+.containerJp {
+    display: flex;
+    align-items: flex-end;
+    background-color: #f1f1f1;
+    }
+    .formulaireJp {
+        margin: 115px 15% 0 15%;
+        padding-top: 130px;
+        padding-bottom: 160px;
+    }
+    @media screen and (max-width: 990px){
+        .formulaireJp {
+        margin: 115px 0px 0px 0px;
+        }
+    } 
+    
+    .form {
+        width: 100%;
+    }
+    .shopTitle {
+        font-size: 42px;
+        margin-bottom: 5%;
+    }
+    .orangeTitle {
+        color: orange;
+    }
+    .btnJp {
+        background-color: orange;
+        border: none;
+    }
+    .textMontantTotal {
+        font-size: 2rem;
+    }
+    
+    .textQuantitéLimit {
+       font-size: 1rem;
+    }
+    /* Fin partie JP */
+
+
